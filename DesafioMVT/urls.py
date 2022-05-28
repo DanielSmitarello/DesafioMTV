@@ -23,4 +23,5 @@ from FAMILIARES import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('familia/', views.mostrarFamilia, name = 'familia')
+
 ]
